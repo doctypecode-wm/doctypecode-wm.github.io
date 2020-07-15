@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joe Mancuso - Web Developer</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/0f1d600fe3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li class="push">
+            <img src="images/logo.png" alt="logo" height="40px" width="308px" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="cover">
+        <div class="profile-pic main">
+          <img src="images/profile.jpg" alt="profile picture" />
+        </div>
+        <div class="profile-intro main">
+          <h1>Hi, I'm <span class="joe">Joe Mancuso</span></h1>
+          <p>
+            I'm a Web Developer located in New Jersey. I specialize in the Full
+            Stack of JavaScript development.
+          </p>
+          <p>
+            I am proficient in React, Node.js, Express.js, and PostgreSQL. I
+            have the ability to guide your project from front end to back end.
+          </p>
+          <div class="profile-icons">
+            <i class="fab fa-html5 fa-7x"></i>
+            <i class="fab fa-css3-alt fa-7x"></i>
+            <i class="fab fa-js-square fa-7x"></i>
+            <i class="fab fa-node fa-7x"></i>
+            <i class="fab fa-react fa-7x"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="portfolio"></div> 
+    <aside>
+      <div class="flex-container">
+        <div class="main-box">
+          <a href="https://joe.doctypecode.com" target="_blank"
+            ><img class="project1" src="images/project1.JPG" alt="" />
+          </a>
+          <h3>Personal Portfolio</h3>
+          <p>
+            My personal portfolio page, which also happens to be my first
+            website design. This was made from scratch, utilizing no frameworks
+            or libraries.
+          </p>
+        </div>
+        <div class="main-box">
+          <img src="https://via.placeholder.com/300x300" alt="" />
+          <h3>Project Name</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            error ea corporis perferendis facere exercitationem.
+          </p>
+        </div>
+        <div class="main-box">
+          <img src="https://via.placeholder.com/300x300" alt="" />
+          <h3>Project Name</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            error ea corporis perferendis facere exercitationem.
+          </p>
+        </div>
+        <div class="main-box">
+          <img src="https://via.placeholder.com/300x300" alt="" />
+          <h3>Project Name</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            error ea corporis perferendis facere exercitationem.
+          </p>
+        </div>
+        <div class="main-box">
+          <img src="https://via.placeholder.com/300x300" alt="" />
+          <h3>Project Name</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            error ea corporis perferendis facere exercitationem.
+          </p>
+        </div>
+      </div>
+    </aside>
+    <section id="contact">
+      <div class="form-wrapper">
+        <div class="form-header flex-form">
+          <h1>Open for new opportunities.</h1>
+          <p>Contact me anytime you have a project in mind.</p>
+          <i class="fas fa-cogs fa-9x"></i>
+        </div>
+        <form method="post" action="contactengine.php">
+          <div class="name-email flex-form">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="Name" required/>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="Email" required/>
+          </div>
+          <div class="subject-message flex-form">
+            <label for="subject">Subject:</label>
+            <input type="text" name="Subject" id="Subject"/>
+            <label for="message">Message:</label>
+            <textarea name="Message" id="Message" required></textarea>
+          </div>
+          <ul class="actions flex-form">
+            <li><input type="submit" value="Submit" /></li>
+            <li><input type="reset" value="Clear Form" class="alt" /></li>
+            </ul>
+        </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-copy footer">
+        <span>Copyright &copy; 2020 Joe Mancuso</span>
+      </div>
+      <div class="footer-social footer">
+        <a href="https://github.com/doctypecode-wm" title="Follow me on Github!" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/joe-mancuso-76593117/" title="Follow me on Linkedin!" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+}
+
+a {
+  color: #333;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 6rem;
+  padding-left: 50px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
