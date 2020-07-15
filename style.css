@@ -245,7 +245,7 @@ aside {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.form-header h1 {
+.form-header h2 {
   font-size: 4rem;
 }
 .form-header p {
