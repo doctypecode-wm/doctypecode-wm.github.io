@@ -217,15 +217,16 @@ aside {
   margin: 0 auto;
 }
 .main-box {
-  width: 350px;
+  width: 300px;
   justify-content: center;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
   font-family: Montserrat, sans-serif;
   line-height: 1.5;
 }
 .main-box img {
   width: 100%;
+  border-radius: 10px;
 }
 .main-box img:hover {
   transform: scale(1.1);
